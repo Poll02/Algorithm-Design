@@ -62,10 +62,8 @@ Funzione Riduci_3SAT_a_IS(Formula F con k clausole):
 ```
 
 **Esempio Intuitivo:**
-Per la formula $(x_1 \lor x_2 \lor x_3) \land (
-eg x_1 \lor x_4 \lor x_5)$.
-Creiamo due triangoli. Scegliere un Independent Set di taglia $k=2$ significa pescare un nodo da ogni triangolo senza mai scegliere contemporaneamente $x_1$ e $
-eg x_1$ (che sono collegati da un arco di conflitto).
+Per la formula $(x_1 \lor x_2 \lor x_3) \land (\neg x_1 \lor x_4 \lor x_5)$.
+Creiamo due triangoli. Scegliere un Independent Set di taglia $k=2$ significa pescare un nodo da ogni triangolo senza mai scegliere contemporaneamente $x_1$ e $\neg x_1$ (che sono collegati da un arco di conflitto).
 
 ---
 
